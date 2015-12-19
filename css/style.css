@@ -1,0 +1,38 @@
+body{
+	width: 700px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto ;
+}
+
+h1{
+	color: #48D1CC ;
+	text-align: center;
+}
+.silly p{
+
+	color: #A9A9A9;
+	text-align: center;
+}
+hr{
+    color: #C0C0C0;   
+}
+.content-section {
+	text-align: left;
+	color: #A9A9A9;
+	padding: 15px;
+}
+
+h2{
+	color: #48D1CC ;
+}
+
+h3{
+	color: #48D1CC ;
+}
+img{
+	text-align: center;
+}
+.abilitie-list{
+	width: 200px;
+}

@@ -1,0 +1,19 @@
+body{
+	width: 700px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto ;
+	background-color: #F3EFE0;
+}
+h2{
+	color: #48D1CC ;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif ;
+}
+.Quote p{
+	text-align: center;
+	display: inline-block;
+}
+img{
+	vertical-align: left;
+}
