@@ -70,8 +70,8 @@ button, .button{
 	display:inline-block;
 	position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .row{
 	display: block;
