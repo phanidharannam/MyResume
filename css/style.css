@@ -1,3 +1,72 @@
+.design-image{
+	height: 100vh;
+	width: 100%;
+	background: no-repeat center right fixed url(../img/design_image.jpg);
+	background-size: cover;
+}
+.redirection-fb a{
+	width: 73px;
+    height: 56px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/find-me.gif) no-repeat; width:400px; height: 130px;
+}
+.find-me{
+	color: #4DAEAB;
+    text-decoration: none;
+}
+.design-image,.design-heading{
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+.design-image,.design-heading{
+	max-width: 100%;
+}
+.design-heading{
+	padding: 40px 180px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.design-image .hole-page{
+	background-color: #22A39F;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.75;
+    z-index: 2;
+}
+.design-image .design-heading .design-heading1{
+	padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+.design-image .design-heading{
+	text-align: center;
+    color: #FFFFFF;
+}
+.design-heading1{
+	font-size: 80px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.second-word{
+	margin: 0 0 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	line-height: 1.4;
+	font-size: 30px;
+}
+
+
+
+
+/*Resume-page*/
+
 #resume-body{
 	width: 700px;
 	padding: 20px;
