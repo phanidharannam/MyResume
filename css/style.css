@@ -1,20 +1,23 @@
-body{
+#resume-body{
 	width: 700px;
 	padding: 20px;
 	border: 1px solid #dddddd;
 	margin: 30px auto 0 auto ;
 }
 
-h1{
+.resume-header1{
 	color: #48D1CC ;
 	text-align: center;
+}
+.person-name{
+	color: #A9A9A9;
 }
 .silly p{
 
 	color: #A9A9A9;
 	text-align: center;
 }
-hr{
+.first-hr{
     color: #C0C0C0;   
 }
 .content-section {
@@ -23,16 +26,177 @@ hr{
 	padding: 15px;
 }
 
-h2{
+.resume-header2{
 	color: #48D1CC ;
 }
 
-h3{
+.resume-header3{
 	color: #48D1CC ;
 }
-img{
+.person-image{
 	text-align: center;
 }
 .abilitie-list{
 	width: 200px;
 }
+.resume-image{
+	width: 90px;
+	height: 35px;
+	cursor: pointer;
+}
+.button-image{
+	width: 80px;
+	height: 30px;
+	padding-right: 6px;
+}
+
+/*experience*/
+
+.experience-body{
+	background: #F3EFE0;
+	width: 700px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto ;
+}
+
+.experience-header1{
+	color: #48D1CC;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.john{
+	text-align: center;
+}
+.experience-header2{
+	color: #48D1CC;
+}
+.phani{
+	text-align: center
+}
+
+
+/*Abilities*/
+
+.Abilities-body{
+	width: 700px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto ;
+}
+
+
+.Abilities-header1{
+	font-size: 40px;
+	text-align: center;
+	color: #48D1CC;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.anush{
+	color: #A9A9A9;
+   text-align: center;
+}
+.ability-skills {
+	color: #22A39F;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+.abilitie-list{
+	color: #A9A9A9;
+	width: 550px;
+	display: inline-block;
+}
+.button{
+	
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    
+}
+.skillsEnd{
+	text-align: center;
+}
+.ability-header3,.ability-header4{
+	color: #48D1CC;
+	font-size: 30px;
+}
+.ability-title{
+	color: #A9A9A9;
+	width: 550px;
+	display: inline-block;
+}
+.fa {
+ color: #48D1CC;
+}
+
+
+/*Projects*/
+
+
+.project-body{
+	width: 900px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto ;
+	background-color: #F3EFE0;
+}
+.project-header2{
+	color: #48D1CC ;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif ;
+}
+.project-hr{
+	/*border-top-style: solid;*/
+    border-top-width: 1px;
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    display: block;
+    border-color: #727878;
+    height: 0px
+    
+}
+
+.project-gallery{
+	text-align: center;
+}
+.Quote p{
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+.project-image{
+	width: 45%;
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+}
+.project-image img{
+	padding: 10px;
+	width: 100%;
+	height: 300px;
+}
+
+ /* #image1{
+	background-image: url("../img/HTML image.png");
+	padding-bottom: 300px;
+	background-repeat: no-repeat;
+}
+
+#image1:hover{
+	background-image: url("../img/fb.png");
+}  */
+
+
+
+/*Contact*/
