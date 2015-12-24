@@ -4,8 +4,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-  <body class="design-link">
-    <div class="redirection-fb">
+  <body class="fixed" >
+    <div class="redirection-fb" id="top">
         <a class="find-me" href="https://www.facebook.com/nani4a" target="_blank">Phanidhar annam's facebook profile</a>
     </div>
     <div class="design-image">
@@ -14,22 +14,19 @@
           <p class="second-word">Interactive resume</p>
       </div>
       <div class="hole-page"></div>
-      <a href="#resume-body" class="scroll-down">
-        <span class="glyphicon glyphicon-chevron-down">
-               <i class="fa fa-chevron-down"></i>
-        </span>
-      </a>
+      
     </div>
-    <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+    <nav class="navbar navbar-default fixed" id="navbar-example" role="navigation">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" >
+      <!--   <button type="button" class="navbar-toggle" >
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
+        </button> -->
       </div>
-      <div class="collapse">
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li>
             <a href="#resume-body">Profile</a>
@@ -43,7 +40,7 @@
           <li>
           <a href="#project-body">Projects</a>
           </li>
-          <li>
+          <li class="active">
             <a href="#contact-body">Contact</a>
           </li>
         </ul>
@@ -615,7 +612,7 @@
 
     </div>
     <div id="contact-body"  class="container">
-      <div>
+     <div>
       <h1 class="contact-heading1">Contact
       </h1>
       <p class="page-quote">
@@ -679,6 +676,14 @@
 
       <button id="like-button" onclick="location.href='https://www.facebook.com/photo.php?fbid=871433426287000&set=a.242080655888950.53099.100002610527431&type=3&theater#';"><img class="fb-like" src="/home/phanidhar/Project/img/fblikebutton.png"></button>
       </div>
+      <div class="navigating-top">
+       <a href="#top" class="scroll-up">
+        <span class="glyphicon glyphicon-chevron-down">
+               <i class="fa fa-chevron-up"></i>
+        </span>
+      </a>
+      </div>
+    </div>  
     </div>
   </body>
 </html>
