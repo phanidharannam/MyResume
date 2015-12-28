@@ -26,8 +26,14 @@ body{
     text-indent: -9999px;
     display: block;
     background: url(../img/find-me.gif) no-repeat; 
-    width:400px; 
+    width:359px; 
     height: 130px;
+}
+.redirection-fb a{
+	left: 1%;
+	float: left;
+	 position: relative;
+	 display: block;
 }
 
 
@@ -87,7 +93,7 @@ body{
 .navbar {
    /* position: relative;*/
     min-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     border: 1px solid transparent;
 }
 nav{
