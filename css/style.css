@@ -131,12 +131,16 @@ button {
 	text-align: center;
 }
 .navbar .nav > li {
-  display: block;
-    height: 30px;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 600;
-    color: #FFFFFF;
+  	display: block;
+	height: 30px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 600;
+	color: #FFFFFF;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition: height 0.6s;
+	transition: height 0.6s;
 }
 .nav>li {
     position: relative;
@@ -531,7 +535,10 @@ ul.no-bullets{
 }
 li{
 	padding-bottom: 20px;
-	list-style: none;	
+	list-style: none;		
+}
+.navbar .nav > li:hover{
+	height: 45px;
 }
 a:hover{
 	color: #ffffff;
@@ -571,7 +578,7 @@ text-decoration: none;
 .skype-icon{
 	text-decoration: none;
 }
-.navigating-top a span i{
+#navigating-top a span i{
 	color: black;
 }
 
