@@ -1,696 +1,747 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body class="fixed" >
-    <div class="design-image">
-     <div class="redirection-fb" id="top">
-        <a class="find-me" href="https://www.facebook.com/nani4a" target="_blank">Phanidhar annam's facebook profile</a>
-    </div>
-      <div class="design-heading">
-          <header><h1 class="design-heading1">Phanidhar Annam</h1></header>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/projectjQuery.js"></script>    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/foundation-sites/dist/foundation.min.css"></link>
+        <script type="text/javascript" src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+        <script type="text/javascript" src="foundation.magellan.js"></script>
+        <script type="text/javascript" src="foundation.core.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+      <body class="body">
+        <div class="design-image">
+         <div>
+            <a class="button" id="fb-image" href="https://www.facebook.com/nani4a" target="_blank"></a>
+        </div>
+        <div class="design-heading">
+          <div class="design-heading1">Phanidhar Annam</div>
           <p class="second-word">Interactive resume</p>
-      </div>
-      <div class="hole-page"></div>
-      
-    </div>
-    <nav class="navbar navbar-default fixed" id="navbar-example" role="navigation">
-      <div class="navbar-header">
-     <!--    <button type="button" class="navbar-toggle" >
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button> -->
-      </div>
-
-      <div id="nav" class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#resume-body">Profile</a>
-          </li>
-          <li>
-            <a href="#experience-body">Experiences</a>
-          </li>
-          <li>
-            <a href="#Abilities-body">Abilities</a>
-          </li>
-          <li>
-          <a href="#project-body">Projects</a>
-          </li>
-          <li class="active">
-            <a href="#contact-body">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        </div>
+                  
+        <nav class="navbar navbar-default fixed" id="navbar-example" role="navigation">
+          <!-- <div class="navbar-header">
+            <button type="button" class="navbar-toggle" >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div> -->
+          <div id="navigating-top">
+           <a href="#resume-body" class="scroll-down">
+            <span class="glyphicon glyphicon-chevron-down">
+                   <i class="fa fa-chevron-down"></i>
+            </span>
+          </a>
+          </div>
+          <div id="nav" >
+            <ul class="side-nav">
+              <li>
+              <a class="active" href="#resume-body">Profile</a>
+              </li>
+              <li>
+              <a class="active" href="#experience-page">Experiences</a>
+              </li>
+              <li>
+              <a class="active" href="#Abilities-body">Abilities</a>
+              </li>
+              <li>
+              <a class="active" href="#project-body">Projects</a>
+              </li>
+              <li>
+              <a class="active" href="#contact-body">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+       </div>
+       <div class="overlay"></div>
        
+        <div id="resume-body" class="container">
+          <h1> Profile </h1>
+          <div class="sub-title">
+           <p>I'm a creative CSS webdeveloper </p>
+          </div>
+          <hr class="first-hr">
+          <div class="content-section">
+            <h2>About me</h2>
+            <section><p>
+            I am an HTML,CSS web developer. I am a Trainee guy with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.
+            </p></section>
 
-    <div id="resume-body">
-      <h1 class="resume-header1">Profile</h1>
-      <div class="silly">
-       <p>I'm a creative CSS webdeveloper </p>
-      </div>
-      <hr class="first-hr">
-      <div class="content-section">
-        <h2 class="resume-header2">About me</h2>
-        <section><p>
-        I am an HTML,CSS web developer. I am a Trainee guy with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.
-        </p></section>
-
-        <figure><img class="person-image" src="img/projectpic.jpg" alt="Phanidhar Annam" align="center"  width="246" height="246"></figure>
-      </div>
-      <h3 class="resume-header3">Details</h3>
-      <strong>Name:</strong>
-      <br>Phanidhar Annam<br>
-      <strong>Age:</strong><br>22 years<br>
-      <strong>Location:</strong><br>karimnagar,vidyanagar,H.no:-10-2-799<br>
-      <button class="resume-image" onclick="location.href='https://twitter.com/annamphanidhar';">
-        <img class="button-image" src="img/fb.png">
-      </button>
-    </div>
+            <figure><img class="person-image" src="img/projectpic.jpg" alt="Phanidhar Annam" align="center"  width="246" height="246"></figure>
+          
+          <h3>Details</h3>
+          <strong>Name:</strong>
+          <br>Phanidhar Annam<br>
+          <strong>Age:</strong><br>22 years<br>
+          <strong>Location:</strong><br>karimnagar,vidyanagar,H.no:-10-2-799<br>          
+            <a id="twitterButton" class="button" href='https://twitter.com/annamphanidhar' style="margin:0; padding:0;"><img id="twitterImage" src="img/fb.png"></a>       
+        </div>
+        </div>
 
 
 
-    <div id="experience-body">
-      <div class="john">
-        <h1 class="experience-header1">Experience</h1>
-         <p>"Protons give an atom its identity, electrons its personality."<br>
-             - Bill Bryson, A short history of nearly everything
-          </p>
-      </div>
-      <hr>
-      <div class="phani">
-      <h2 class="experience-header2">Education</h2>
-      <br>
-      <strong>JNTU University</strong><br>
-      <n>june-23-2011 to june-28-2015</n>
-      <p><strong>Engineering</strong>
-      <article><p>Jyothismathi institute of technology & science collage,this is the top collage in the   karimnagar city.The collage is assicoated with 4 branchs.they are EEE,ECE,CSE,IT branchs.Each branch is having two sections according to the student strength of the class.if you visit into this collage you feel like there are most of the girls in the collage.</p></article><br>
-      <strong>st.john's high school</strong> 
-      <p>This school is located in karimnagar beside of Andra Bank in vidyanagar and our school game is Football & i completed my schooling in 2009. </p>
-      <footer><p>i am an average student with 60% grading ,in the schooling.</p></footer>
-      </div>
-      <div class="shashi">
+        <div id="experience-page">
+        <div class="experience-body">
+            <h2>Experience</h2>
+          <div class="sub-title">
+             <p>"Protons give an atom its identity, electrons its personality."<br>
+                 - Bill Bryson, A short history of nearly everything
+              </p>
+          </div>
+          <hr>
+          <h3>Education</h3>
+          <div class="row">
+          <br>
+          <div class="small-2 columns"><strong>JNTU University</strong><br></div>
+          <div class="small-10 columns">june-23-2011 to june-28-2015
+                  <p><strong>Engineering</strong>
+                  <article><p>Jyothismathi institute of technology & science collage,this is the top collage in the   karimnagar city.The collage is assicoated with 4 branchs.they are EEE,ECE,CSE,IT branchs.Each branch is having two sections according to the student strength of the class.if you visit into this collage you feel like there are most of the girls in the collage.</p></article><br>
+          </div>
+           <div class="small-2 columns"><strong>st.john's high school</strong></div>
+            <div class="small-10 columns"><p>This school is located in karimnagar beside of Andra Bank in           vidyanagar and our school game is Football & i completed my schooling in 2009. </p>
+                  <footer><p>i am an average student with 60% grading ,in the schooling.</p></footer>
+          </div>
+         
+            <hr>
+          <div class="small-2 columns"><n><strong>Careers</strong></n></div>
+          <div class="small-10 columns"><p>Started learning HTML and CSS courses in the codeschool & the implementing in the webpage at FREEWAVE TECh Solutions PVT Limited.</p></div>
+          </div>
+          </div>
+        </div>
+
+
+
+        <div id="Abilities-body">
+          <h1>Abilities</h1>
+            <div class="sub-title">
+                <p>"Life without knowledge is death in disguise. "
+                <br>
+                " - Talib Kweli "
+                </p>
+            </div>
+            <hr>
+            <h3 class="ability-skills">Skills</h3>
+            <div class="row">            
+                <div class="small-6 columns">
+                <div class="row">
+                <div class="columns">
+                    <ul class="no-bullets1">
+                        <li class="row">
+                            <span class="abilitie-list">HTML</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">CSS</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">JS</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">jQuery</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">Java</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">Command line</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">AnjularJS</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">MYSQl</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">SASS</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">Ruby</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">XML</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="abilitie-list">PHP</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                
+                    <div class="small-6 columns">
+                    <div class="row">
+                    <div class="columns">
+                    <ul class="no-bullets2">
+                    <li class="row">
+                        <span class="abilitie-list">LESS</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">UML</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Wordpress</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Singleton Pattern</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">SEO</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Laravel Framework</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">MVC Pattern</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Method Factory Pattern</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Object Orientated Programming</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Builder Pattern</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">JSON</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="abilitie-list">Bootstrap Framework</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    
+            </div>
+            
+         
+
+        <div class="skillsEnd">
+          <p class="anush">This project is build on HTML && CSS FrameWork</p>
+          <button type=button onclick="location.href='https://github.com/phanidharannam';" class="button">See My Github Profile</button>
+        </div>
         <hr>
-        <n><strong>Careers</strong></n>
-        <p>Started learning HTML and CSS courses in the codeschool & the implementing in the webpage at FREEWAVE TECh Solutions PVT Limited.</p>
-      </div>
-    </div>
 
+        
+            <h3 class="ability-header3">Languages</h3>
+            <div class="row">
+            <div class="small-6 columns">
+                <ul class="first 2 languages">
+                    <li class="row">
+                        <span class="ability-title">English</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="ability-title">Telugu</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                    </li>
+                </ul>
+                </div>
+           
 
-    <div id="Abilities-body">
-      <div>
-        <h1 class="Abilities-header1">Abilities</h1>
-        <p class="anush">
-        "
-        Life without knowledge is death in disguise. "
-        <br>
-        " - Talib Kweli "
-        </p>
-        <hr>
-        <h2 class="ability-skills">Skills</h2>
-        <div class="skillsrow">
-        <div class="numberofskills1">
-        <ul class="no-bullets1">
-        <li>
-        <span class="abilitie-list">HTML</span>
-        <span class="stars1">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">CSS</span>
-        <span class="stars2">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>  
-        </span></li>
-        <li>
-        <span class="abilitie-list">JS</span>
-        <span class="stars3">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">jQuery</span>
-        <span class="stars4">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Java</span>
-        <span class="stars5">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Command line</span>
-        <span class="stars6">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">AnjularJS</span>
-        <span class="stars7">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">MYSQl</span>
-        <span class="stars8">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">SASS</span>
-        <span class="stars9">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Ruby</span>
-        <span class="stars10">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">XML</span>
-        <span class="stars11">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">PHP</span>
-        <span class="stars12">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        </ul>
+            <div class="small-6 columns">
+                <ul class="ability-score">
+                    <li class="row">
+                        <span class="ability-title">Hindi</span>
+                        <span class="small-4 columns">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    <li class="row">
+                        <span class="ability-title">Marati</span>
+                        <span class="small-4 columns">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            
+            <hr>
+            <div id="tools">
+                <h3>Tools</h3>
+                <div class="row">
+                <div class="small-6 columns">
+                    <ul class="usage tools">
+                        <li class="row">
+                        <span class="ability-title">chrome</span>
+                        <span class="small-4 columns">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">FireFox</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Mac</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Ms office</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Mac</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Notepad</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Git</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">sublime text</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        </ul>
+                        </div>
+                        
+                       
+                        <div class="small-6 columns">
+                        <ul class="usage tools">
+                        <li class="row">
+                            <span class="ability-title">Adobe Photoshop</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Internet Explore</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Stash</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Subversion</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">MAMP</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Coda2</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Adobe Fireworks</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+                        <li class="row">
+                            <span class="ability-title">Webkit browsers</span>
+                            <span class="small-4 columns">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                        </li>
+            </ul>
+            </div>
+            </div>
+            </div>
         </div>
-        <div class="numberofskills2">
-        <ul class="no-bullets2">
-        <li>
-        <span class="abilitie-list">LESS</span>
-        <span class="stars13">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">UML</span>
-        <span class="stars14">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Wordpress</span>
-        <span class="stars15">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Singleton Pattern</span>
-        <span class="stars16">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">SEO</span>
-        <span class="stars17">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Laravel Framework</span>
-        <span class="stars18">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">MVC Pattern</span>
-        <span class="stars19">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Method Factory Pattern</span>
-        <span class="stars20">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Object Orientated Programming</span>
-        <span class="stars21">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Builder Pattern</span>
-        <span class="stars22">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">JSON</span>
-        <span class="stars23">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        <li>
-        <span class="abilitie-list">Bootstrap Framework</span>
-        <span class="stars24">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span></li>
-        </ul>
+         </div>
+
+
+        <div id="project-body">
+              <div id="projects">
+              <h2 class="project-header2">Projects</h2>
+              <div class="sub-title">
+              <p>"You can do anything you set your mind to."
+              <br>
+               - Benjamin Franklin 
+              </p>
+              </div>
+              <hr class="project-hr" size="0.66">
+              <div class="row small-up-1 large-up-2 ">
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/HTML image.png" alt="Phani Learning HTML" onclick="location.href='https://www.codeschool.com/paths/html-css';"> 
+              </div>
+              </div>
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/Git image.png" alt="Phani Learning Git" onclick="location.href='https://www.codeschool.com/paths/git';">
+              </div>
+              </div>
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/javascript image.png" alt="Phani Learning javascript" onclick="location.href='https://www.codeschool.com/paths/javascript';">
+              </div>
+              </div>
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/database image.png" alt="Phani Learning database" onclick="location.href='https://www.codeschool.com/paths/database';">
+              </div>
+              </div> 
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/Ruby image.png" alt="Phani Learning Ruby" onclick="location.href='https://www.codeschool.com/paths/ruby';">
+              </div>
+              </div>
+              <div class="column">
+              <div class="project-image">
+              <img class="image" src="img/iOS image.png" alt="Phani Learning iOs" onclick="location.href='https://www.codeschool.com/paths/ios';">
+              </div>
+              </div>
+             </div>
+            </div>
         </div>
-        </div>
-    </div>
 
-    <div class="skillsEnd">
-      <p class="anush">This project is build on HTML && CSS FrameWork</p>
-      <button type=button onclick="location.href='https://github.com/phanidharannam';" class="button">See My Github Profile</button>
-    </div>
-    <hr>
-
-    <div id="languages-known">
-        <h3 class="ability-header3">Languages</h3>
-        <div class="list of languages">
-        <ul class="first 2 languages">
-        <li >
-        <span class="ability-title">English</span>
-        <span class="ability-score">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li >
-        <span class="ability-title">Telugu</span>
-        <span class="ability-score">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        </span>
-        </li>
-        </ul>
-        </div>
-        <div class="second 2 languages">
-        <ul class="ability-score">
-        <li>
-        <span class="ability-title">Hindi</span>
-        <span class="ability-score">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Marati</span>
-        <span class="ability-score">
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        </ul></div>
-        <hr>
-        <div id="tools">
-        <h4 class="ability-header4">Tools</h4>
-        <div class="work tools">
-        <ul class="usage tools">
-        <li>
-        <span class="ability-title">chrome</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">FireFox</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Mac</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Ms office</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Mac</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Notepad</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Git</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">sublime text</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        </ul>
-        </div>
-        <div class="work tools">
-        <ul class="usage tools">
-        <li>
-        <span class="ability-title">Adobe Photoshop</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Internet Explore</span>
-        <span class="ability-score">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Stash</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Subversion</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">MAMP</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Coda2</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Adobe Fireworks</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        <li>
-        <span class="ability-title">Webkit browsers</span>
-        <span class="ability-score">
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </span>
-        </li>
-        </ul>
-        </div>
-        </div>
-    </div>
+           <div class="background-gray">
+             <div id="contact-body" class="container">   
+                         <h2>Contact</h2>
+                          <div class="sub-title">
+                              <p>
+                              "
+                              If I had asked people what they wanted, they would have said faster horses. "
+                              <br>
+                              "
+                              - Henry Ford
+                              "
+                              </p>
+                          </div>
+                          <hr>
+                          <div class="row  large-up-2">
+                              <div class="column">              
+                                  <ul class="no-bullets">
+                                  <li class="link">
+                                  <a class="show-other-page" href="https://mobile.twitter.com/account" target="_blank">
+                                  <i class="fa fa-twitter-square"></i>
+                                  <span class="twitter-icon"></span>
 
 
-    <div id="project-body">
-      <div id="projects">
-      <h2 class="project-header2">Projects</h2>
-      <p class="Quote">"You can do anything you set your mind to. "<br>" - Benjamin Franklin "</p>
-      <hr class="project-hr" size="0.66">
-      <div class="project-gallery">
-      <div class="project-image">
+                                  Twitter/phanidhar annam @profile
+                                  </a>  
+                                  </li>
+                                  <li class="link">
+                                  <a class="show-other-page" href="https://www.linkedin.com/profile/view?id=AAIAABgD5ewBHR_Nq6bCjqVeJpMaXSeqAYmQumk   &trk=nav_responsive_tab_profile" target="_blank">
+                                  <i class="fa fa-linkedin-square"></i>
+                                  <span class="linkedin-icon"></span>
 
-      <img id="image1" src="img/HTML image.png" alt="Phani Learning HTML" onclick="location.href='https://www.codeschool.com/paths/html-css';"> 
+                                    Linkedin/phanidhar annam @profile
+                                  </a>
+                                  </li>
+                                  </ul>
+                              </div>
+                              <div class="column">
+                                  <ul class="no-bullets">
+                                  <li class="link">
+                                  <a class="social-btn" href="https://secure.skype.com/portal/overview">
+                                  <i class="fa fa-skype"></i>
+                                  </a>
+                                  <a class="skype-icon"
+                                  href="https://secure.skype.com/portal/overview">
 
-      </div>
-      <div class="project-image">
+                                  Skype/phanidhar annam @profile
+                                  </a>
+                                  </li>
+                                  <li class="link">
+                                  <a class="social-btn" href="https://plus.google.com/u/0/117960861595642799339">
+                                  <i class="fa fa-at"></i>
+                                  </a>
+                                  <a class="gmail-icon" href="https://plus.google.com/u/0/117960861595642799339">
 
+                                  Google/phanidhar annam @profile
+                                  </a>      
+                                  </li>
+                                  </ul>
+                              </div>  
+                          </div>
+                          <hr>
+                          <div id="last-buttons" class="text-center">
+                              <button id="tweet-button" onclick="location.href='https://mobile.twitter.com/compose/tweet#';"><img class="twitter-tweet" src="/home/phanidhar/Project/img/twitterbutton.png"></button>
 
-      <img id="image2" src="img/Git image.png" alt="Phani Learning Git" onclick="location.href='https://www.codeschool.com/paths/git';">
-
-      </div>
-      <div class="project-image">
-
-      <img id="image3" src="img/javascript image.png" alt="Phani Learning javascript" onclick="location.href='https://www.codeschool.com/paths/javascript';">
-      </div>
-
-      <div class="project-image">
-
-      <img id="image4" src="img/database image.png" alt="Phani Learning database" onclick="location.href='https://www.codeschool.com/paths/database';">
-      </div>
-      <div class="project-image">
-
-      <img id="image5" src="img/Ruby image.png" alt="Phani Learning Ruby" onclick="location.href='https://www.codeschool.com/paths/ruby';">
-      </div>
-      <div class="project-image">
-
-      <img id="image6" src="img/iOS image.png" alt="Phani Learning iOs" onclick="location.href='https://www.codeschool.com/paths/ios';">
-      </div>
-      </div>
-
-      </div>
-    </div>
-
-
-    </div>
-    <div id="contact-body"  class="container">
-     <div>
-      <h1 class="contact-heading1">Contact
-      </h1>
-      <p class="page-quote">
-      "
-      If I had asked people what they wanted, they would have said faster horses. "
-      <br>
-      "
-      - Henry Ford
-      "
-      </p>
-      <hr class="contact-hr" size="0.66">
-      <div class="row">
-      <div class="col-md-6">              
-      <ul class="no-bullets">
-      <li class="link">
-      <a class="show-other-page" href="https://mobile.twitter.com/account" target="_blank">
-      <i class="fa fa-twitter-square"></i>
-      <span class="twitter-icon"></span>
-
-
-      Twitter/phanidhar annam @profile
-      </a>
-      </li>
-      <li class="link">
-      <a class="show-other-page" href="https://www.linkedin.com/profile/view?id=AAIAABgD5ewBHR_Nq6bCjqVeJpMaXSeqAYmQumk   &trk=nav_responsive_tab_profile" target="_blank">
-      <i class="fa fa-linkedin-square"></i>
-      <span class="linkedin-icon"></span>
-
-        Linkedin/phanidhar annam @profile
-      </a>
-      </li>
-      </ul>
-      </div>
-      <div class="col-md-6">
-      <ul class="no-bullets">
-      <li class="link">
-      <a class="social-btn" href="https://secure.skype.com/portal/overview">
-      <i class="fa fa-skype"></i>
-      </a>
-      <a class="skype-icon"
-      href="https://secure.skype.com/portal/overview">
-
-      Skype/phanidhar annam @profile
-      </a>
-      </li>
-      <li class="link">
-      <a class="social-btn" href="https://plus.google.com/u/0/117960861595642799339">
-      <i class="fa fa-at"></i>
-      </a>
-      <a class="gmail-icon" href="https://plus.google.com/u/0/117960861595642799339">
-
-      Google/phanidhar annam @profile
-      </a>
-      </li>
-      </ul>
-      </div>  
-      </div>
-      <hr size="0.66">
-      <div class="text-center">
-      <button id="tweet-button" onclick="location.href='https://mobile.twitter.com/compose/tweet#';"><img class="twitter-tweet" src="/home/phanidhar/Project/img/twitterbutton.png"></button>
-
-      <button id="like-button" onclick="location.href='https://www.facebook.com/photo.php?fbid=871433426287000&set=a.242080655888950.53099.100002610527431&type=3&theater#';"><img class="fb-like" src="/home/phanidhar/Project/img/fblikebutton.png"></button>
-      </div>
-      <div id="navigating-top">
-       <a href="#top" class="scroll-up">
-        <span class="glyphicon glyphicon-chevron-down">
-               <i class="fa fa-chevron-up"></i>
-        </span>
-      </a>
-      </div>
-    </div>  
-    </div>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
-    <script src="js/app.js"></script>
+                              <button id="like-button" onclick="location.href='https://www.facebook.com/photo.php?fbid=871433426287000&set=a.242080655888950.53099.100002610527431&type=3&theater#';"><img class="fb-like" src="/home/phanidhar/Project/img/fblikebutton.png"></button>
+                          </div>
+             </div>
+          </div>
   </body>
 </html>
