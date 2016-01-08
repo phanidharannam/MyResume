@@ -76,6 +76,7 @@
   @include foundation-menu;
   @include foundation-off-canvas;
   @include foundation-orbit;
+  @include foundation-topbar
   @include foundation-pagination;
   @include foundation-progress-bar;
   @include foundation-slider;
@@ -87,5 +88,4 @@
   @include foundation-thumbnail;
   @include foundation-title-bar;
   @include foundation-tooltip;
-  @include foundation-top-bar;
 }

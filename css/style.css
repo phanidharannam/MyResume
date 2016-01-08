@@ -64,13 +64,15 @@
     height: 100vh;
     background-color: rgba(34, 163, 159, 0.75);    
 }
-.side-nav {
-    position: absolute;
-    z-index: 4;
+.side-nav {    
     list-style: none;
     color: #FFFFFF;
-    cursor: pointer;
-    right: 5%
+    background-color: #222222;  
+}
+
+#nav{
+    position: relative;    
+    top: 0;
 }
 
 #navigating-top{
@@ -81,6 +83,12 @@
     padding: 60px 20px;
     min-width: 280px;
 }*/
+/*#experience-page .row{
+    padding-bottom: 20px ;
+}*/
+.experience-container{
+    padding-top: 40px;
+}
 
 h1,h2{
     text-align: center;
@@ -184,7 +192,7 @@ li{
     padding: 40px 80px;
 }
 .container {
-    width: 750px;
+    width: 520px;
 }
 .container {
     margin-right: auto;
@@ -231,6 +239,8 @@ a:hover{
 #last-buttons{
     text-align: center;
 }
-body{
+/*body{
     font-size: 15px;
-}
+}*/
+
+
